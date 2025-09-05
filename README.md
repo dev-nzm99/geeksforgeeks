@@ -1,2 +1,2 @@
 # geeksforgeeks
-My geeksforgeeks solutions
+My gfg solutions
