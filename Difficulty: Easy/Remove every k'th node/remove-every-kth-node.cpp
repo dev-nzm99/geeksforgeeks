@@ -12,11 +12,13 @@ struct Node
 
 };
 */
+/*The idea is to traverse the linked list while maintaining a counter to track node positions. 
+Every time the counter reaches k, update the next pointer of the previous node to skip the current 
+kth node, effectively removing it from the list. Continue this process until reaching the end of 
+the list. This method ensures that the kth nodes are removed as required while preserving the rest 
+of the list structure. */
 
-/*You are required to complete this method*/
-
-/* Function to get the middle of the linked list*/
-/*K will always be in range */
+/*Author:Nazmul*/
 class Solution {
   public:
     Node* deleteK(Node* head, int k) {
@@ -26,7 +28,7 @@ class Solution {
         while(curr!=NULL){
             count++;
             if(count%k == 0){
-              prev->next = curr->next;
+              (prev != NULL) ? prev->next = curr->next : head = curr->next;
             }else{
               prev = curr;
             }
