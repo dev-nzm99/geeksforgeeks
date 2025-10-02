@@ -25,3 +25,17 @@ class Solution {
        return -1;
     }
 };
+/*
+Recursive approach
+class Solution {
+  public:
+    int GetNth(Node *head, int index) {
+       if(head == NULL){
+           return -1;
+       }
+       if(index == 1){
+           return head->data;
+       }
+       return GetNth(head->next,index-1);
+    }
+};*/
