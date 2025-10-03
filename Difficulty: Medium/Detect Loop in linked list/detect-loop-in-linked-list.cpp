@@ -8,9 +8,9 @@ class Node {
         data = x;
         next = NULL;
     }
-}*/
-/*Author: Nazmul Islam
- "slow–fast pointer approach(Floyd’s Cycle Finding Algorithm)"
+}
+  Author: Nazmul Islam
+ "slow–fast pointer approach.(Floyd’s Cycle Finding Algorithm)"
 */
 
 class Solution {
