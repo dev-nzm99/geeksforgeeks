@@ -9,7 +9,6 @@ class Node {
         next = nullptr;
     }
 };
-
 Author: Nazmul Islam
 */
 class Solution {
@@ -40,7 +39,6 @@ class Solution {
                   fast_ptr = fast_ptr->next;
             }
         }
-        
         //Step-3:Break the loop
         fast_ptr->next = NULL;
         return;
