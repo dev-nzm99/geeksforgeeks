@@ -11,7 +11,7 @@ struct Node {
 };
 
 Author: Nazmul Islam
-Soluton approach: Using HashSet
+Approach: Using HashSet
 */
 
 class Solution {
