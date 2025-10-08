@@ -1,3 +1,6 @@
+/*
+Author: Nazmul Islam
+*/
 struct P{
   int idx;
   int price;
