@@ -1,3 +1,6 @@
+/*
+Author: Nazmul Islam
+*/
 class Solution {
   public:
     static bool com(pair<int,int> a,pair<int,int> b){
