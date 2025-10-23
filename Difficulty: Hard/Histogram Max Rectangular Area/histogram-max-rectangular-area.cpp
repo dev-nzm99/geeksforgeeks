@@ -3,7 +3,6 @@ Author: Nazmul Islam
 Created: 2025-10-23 15:43
 Complexity: O(n) Time & O(n) Space
 */
-
 class Solution {
   public:
     int getMaxArea(vector<int> &arr) {
