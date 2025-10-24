@@ -1,4 +1,7 @@
-
+/*
+ Author: Nazmul Islam
+ Complexity: O(nlogn) Time and O(n) Space
+*/
 struct Item{
     int value;
     int weight;
