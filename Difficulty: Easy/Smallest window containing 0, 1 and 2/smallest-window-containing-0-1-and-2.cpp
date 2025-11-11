@@ -2,9 +2,7 @@
   Author:Nazmul Islam
   Using Sliding Window Pattern (Variable Size)
   Complexity: O(n) time & O(n) space
-
 */
-
 class Solution {
   public:
     int smallestSubstring(string S) {
